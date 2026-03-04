@@ -49,6 +49,7 @@ jobs:
           name: mocha-html-report
           path: backend/mochawesome-report/
 
+
 3. How it works (Simple English)
 CI/CD: This "YAML" file tells GitHub to hire a robot. Every time we "push" code to GitHub, the robot automatically runs all our tests.
 Reporting: Using mochawesome, the robot creates a beautiful HTML report with green and red charts.
